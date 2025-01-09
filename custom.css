@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background: #121212;
+}
+
+.left__schema--item {
+    width: 25%;
+}
+
+.right__schema--item {
+    width: 25%;
+}
+
+.center__schema--item {
+    width: 50%;
+}
+
+.section__schema--grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.schema_tabs {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+a.tab {
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    color: #f0f0f0;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+    background: #383737;
+}
+
+.input_lbl {
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    color: #f0f0f0;
+}
